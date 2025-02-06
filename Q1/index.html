@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="UI">
+        <p>Today's date is: <span id="date"></span></p>
+        <div class="form">
+            <form>
+                <label for="num">Number 1</label>
+                <input type="number" id="num" name="num" value="0">
+                <br>
+                <label for="num2">Number 2</label>
+                <input type="number" id="num2" name="num2" value="0">
+            </form>
+        </div>
+        
+        <div class="menu">
+            <button onclick="adding()">ADD</button>
+            <button onclick="sub()">SUB</button>
+        </div>
+    
+        <div class="res-box">
+            Result:<span id="res"></span>
+        </div>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
