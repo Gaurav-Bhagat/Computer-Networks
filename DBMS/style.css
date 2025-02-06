@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(121, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    height:500px;
+    width:600px;
+    font-size: large;
+    margin: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(225, 209, 239);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contents{
+    display: none;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+.show{
+    display:block;
+}
+
+
+.name{
+    margin:10px;
+}
+.roll{
+    margin:10px;
+}
+.department{
+    margin: 10px;
+}
+.num{
+    margin: 10px;
+}
+
+.opts{
+    display: flex;
+    justify-content: space-around;
+}

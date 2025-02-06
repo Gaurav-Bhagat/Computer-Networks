@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Registration</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Student's Registration</h1>
+        </div>
+
+
+        <!-- ADD form -->
+        <div id="hidden-section" class="contents">
+            <div class="name">
+                <label for="nam">Name:</label>
+                <input name = "sName" type="text" id="nam" placeholder="Enter name...">
+            </div>
+
+            <div class="roll">
+                <label for="r">Roll:</label>
+                <input type="text" id="r" placeholder="Enter roll...">
+            </div>
+            
+            <label for="address">Enter your address:</label>
+            <div class="address">
+                <textarea id="address" name="address" rows="4" cols="50" placeholder="Give address..."></textarea>
+            </div>
+
+            <div class="department">
+                <label for="dept">Department:</label>
+
+                <select name="dept" id="dept-select">
+                    <option value="">--Choose your Dept--</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ME">ME</option>
+                    <option value="ECE">ECE</option>
+                    <option value="CE">CE</option>
+                </select>
+            </div>
+
+            <div class="num">
+                <label for="contact">Contact Number:</label>
+                <input type="text" id="contact" placeholder="Enter phone no...">
+            </div>
+        </div>
+
+
+        <!-- SEARCH FORM -->
+        <div id="search-form" class="contents">
+            <div class="search-roll">
+                <label for="searchRoll">Enter a roll to search:</label>
+                <input type="text" id="searchRoll" placeholder="Enter roll...">
+            </div>
+        </div>
+        
+
+
+        <div class="opts">
+            <button id = "add-btn" class="Bbutton" type="button">ADD</button>
+            <button id = "search-btn" class="Bbutton" type="button">SEARCH</button>
+            <button class="Bbutton" type="button">EDIT</button>
+            <button class="Bbutton" type="button">DELETE</button>
+            <button class="Bbutton" type="button">DISPLAY</button>
+            <button class="Bbutton" type="button">SAVE</button>
+            <button class="Bbutton" type="button">CANCEL</button>
+        </div>
+    </div>
+    ,<script src="app.js"></script>
+</body>
+</html>
